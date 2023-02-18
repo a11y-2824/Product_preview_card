@@ -1,0 +1,62 @@
+
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+:root {
+/* Primary */
+
+--dark-cyan: hsl(158, 36%, 37%);
+--cream: hsl(30, 38%, 92%);
+
+/* Neutral */
+
+--very-dark-blue: hsl(212, 21%, 14%);
+--dark-grayish-blue: hsl(228, 12%, 48%);
+--white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{ 
+    width: 300px;
+    height: 530px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-info{
+    padding: 20px;
+
+}
+
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
